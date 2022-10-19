@@ -1,5 +1,5 @@
 //Pre entrega
-
+/*
 for (let i = 1; i <= 3; i++) {
     let usuario = prompt('Ingrese nombre de Usuario');
     let numero = parseInt(prompt('Ingrese contraseña'));
@@ -45,3 +45,47 @@ while (estadisticas != 'z') {
     }
     estadisticas = prompt('Ingrese el apellido del futbolista que desea buscar o la letra z para salir');
 }
+*/
+//añadiendo arrays de objetos a mi proyecto post clase 6
+
+const goleadores = [{
+        nombre: 'benedetto',
+        goles: 5,
+        detalle: '5 goles en 15 partidos'
+    },
+    {
+        nombre: 'retegui',
+        goles: 12,
+        detalle: '12 goles en 20 partidos'
+    },
+    {
+        nombre: 'boselli',
+        goles: 8,
+        detalle: '8 goles en 16 partidos'
+    },
+    {
+        nombre: 'copetti',
+        goles: 10,
+        detalle: '10 goles en 19 partidos'
+    },
+    {
+        nombre: 'cristaldo',
+        goles: 5,
+        detalle: '5 goles en 19 partidos'
+    },
+    {
+        nombre: 'langoni',
+        goles: 6,
+        detalle: '6 goles en 9 partidos'
+    }
+];
+
+let busqueda = prompt('ingrerse el apellido del jugador que busca en miniscula')
+
+
+//console.log(goleadores);
+/*
+for(const goleador of goleadores){
+  console.log(goleador);
+};
+*/
